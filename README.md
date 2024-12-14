@@ -34,6 +34,11 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
+To edit requirements.txt with ur new ones
+```bash
+pip freeze > requirements.txt
+```
+
 4. Set Up the Django Project
 Run initial migrations:
 ```bash
