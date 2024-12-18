@@ -27,7 +27,10 @@ def get_groq_response(user_input):
 
 # View for rendering the index page
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'chatbot.html')
+
+def dashboard(request):
+    return render(request, 'dashboard.html')
 
 # View to handle user input and respond with Groq's API output
 @csrf_exempt
