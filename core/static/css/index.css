@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
+    background-color: #f2f7ff;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
-    background-color: #f3f4f6;
+    background-color: #f2f7ff;
     border-radius: 10px;
     overflow-y: auto;
 }
@@ -27,7 +27,7 @@ body {
 .chat-container::-webkit-scrollbar-thumb {
     background-color: #4f46e5;
     border-radius: 10px;
-    border: 2px solid #f3f4f6;
+    border: 2px solid #f2f7ff;
 }
 
 .message {
@@ -79,7 +79,7 @@ body {
     outline: none;
 }
 
-.input-container button {
+.input-container button, .frm {
     margin-left: 10px;
     background-color: #4f46e5;
     width: 40px;
@@ -89,6 +89,6 @@ body {
     cursor: pointer;
 }
 
-.input-container button:hover {
+.input-container button:hover, .frm:hover {
     background-color: #4338ca;
 }

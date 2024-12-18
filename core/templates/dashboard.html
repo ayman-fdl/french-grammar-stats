@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 
-    <link rel="stylesheet" href="{% static 'vendors/chartjs/Chart.min.css' %}">     
+    <link rel="stylesheet" href="{% static 'vendors/chartjs/Chart.min.css' %}">
     <link rel="stylesheet" href="{% static 'vendors/iconly/bold.css' %}">
 
     <link rel="stylesheet" href="{% static 'vendors/perfect-scrollbar/perfect-scrollbar.css' %}">
@@ -30,11 +30,31 @@
             </header>
 
             <div class="container">
-                <h3>French Text Statistics</h3>
+                <h3>Analyse des statistiques linguistiques</h3>
             </div>
             <div class="page-content container">
-                <section class="row"><!--   -->
+                <section class="row">
                     <div class="col">
+                        <div class="row justify-content-center">
+                            <div class="col-auto px-3 py-4-5">
+                                <a href="#grammaireSection" class="btn btn-primary">Grammaire</a>
+                            </div>
+                            <div class="col-auto px-3 py-4-5">
+                                <a href="#verbesSection" class="btn btn-primary">Verbes</a>
+                            </div>
+                            <div class="col-auto px-3 py-4-5">
+                                <a href="#phrasesSection" class="btn btn-primary">Phrases</a>
+                            </div>
+                            <div class="col-auto px-3 py-4-5">
+                                <a href="#texteSection" class="btn btn-primary">Texte</a>
+                            </div>
+                            <div class="col-auto px-3 py-4-5">
+                                <div class="btn btn-success">Exporter le Rapport</div>
+                            </div>
+                            <div class="col-auto px-3 py-4-5">
+                                <a href="#about" class="btn btn-primary">À propos du projet</a>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-6 col-lg-3 col-md-6">
                                 <div class="card">
@@ -42,12 +62,12 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="stats-icon purple">
-                                                    <i class="iconly-boldShow"></i>
+                                                    <i class="iconly-boldBook"></i>
                                                 </div>
                                             </div>
                                             <div class="col-md-8">
-                                                <h6 class="text-muted font-semibold">Words Count</h6>
-                                                <h6 class="font-extrabold mb-0">112.000</h6>
+                                                <h6 class="text-muted font-semibold">Nombre de mots</h6>
+                                                <h6 class="font-extrabold mb-0">112</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -109,12 +129,44 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4>Profile Visit</h4>
+                                        <h4>Analyse de fréquence des composants textuels</h4>
                                     </div>
                                     <div class="card-body">
                                         <div id="chart-profile-visit"></div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div id="grammaireSection" class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Grammaire</h4>
+                                </div>
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div id="verbesSection" class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Verbes</h4>
+                                </div>
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div id="phrasesSection" class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Phrases</h4>
+                                </div>
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div id="texteSection" class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Texte</h4>
+                                </div>
+                                <div class="card-body"></div>
                             </div>
                         </div>
                         <div class="row">
@@ -263,6 +315,14 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="about" class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>À propos du projet</h4>
+                                </div>
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -276,7 +336,7 @@
 
     <script src="{% static 'vendors/apexcharts/apexcharts.js' %}"></script>
     <script src="{% static 'js/pages/dashboard.js' %}"></script>
-    
+
     <script src="{% static 'js/main.js' %}"></script>
 
 </body>
