@@ -1,0 +1,246 @@
+{
+    "output": {
+        "Grammaire": {
+            "Sujets": {
+                "Total": 8,
+                "Details": {
+                    "Je": 3,
+                    "ma famille et moi": 1,
+                    "nous": 1,
+                    "Ma mère, Sophie Martin": 1,
+                    "elle": 2
+                }
+            },
+            "Verbes": {
+                "Total": 9,
+                "Par Temps": {
+                    "Présent": {
+                        "Total": 7,
+                        "Verbes": [
+                            {
+                                "Forme Conjuguee": "appelle",
+                                "Infinitif": "appeler"
+                            },
+                            {
+                                "Forme Conjuguee": "ai",
+                                "Infinitif": "avoir"
+                            },
+                            {
+                                "Forme Conjuguee": "viens",
+                                "Infinitif": "venir"
+                            },
+                            {
+                                "Forme Conjuguee": "est",
+                                "Infinitif": "être"
+                            },
+                            {
+                                "Forme Conjuguee": "adore",
+                                "Infinitif": "adorer"
+                            },
+                            {
+                                "Forme Conjuguee": "créer",
+                                "Infinitif": "créer"
+                            },
+                            {
+                                "Forme Conjuguee": "passer",
+                                "Infinitif": "passer"
+                            }
+                        ]
+                    },
+                    "Passé composé": {
+                        "Total": 2,
+                        "Verbes": [
+                            {
+                                "Forme Conjuguee": "avons quitté",
+                                "Infinitif": "quitter"
+                            },
+                            {
+                                "Forme Conjuguee": "installer",
+                                "Infinitif": "installer"
+                            }
+                        ]
+                    }
+                },
+                "Par mode": {
+                    "Indicatif": {
+                        "Total": 9
+                    }
+                }
+            },
+            "Champs Lexicaux": {
+                "Nom": {
+                    "Total": 2,
+                    "Details": [
+                        "Lucas Martin",
+                        "Sophie Martin"
+                    ]
+                },
+                "Âge": {
+                    "Total": 1,
+                    "Details": [
+                        "14 ans"
+                    ]
+                },
+                "Nationalité": {
+                    "Total": 1,
+                    "Details": [
+                        "Belgique"
+                    ]
+                },
+                "Lieu": {
+                    "Total": 3,
+                    "Details": [
+                        "Bruxelles",
+                        "petite ville",
+                        "Bretagne"
+                    ]
+                },
+                "Profession": {
+                    "Total": 1,
+                    "Details": [
+                        "pâtissière"
+                    ]
+                },
+                "Hobbies": {
+                    "Total": 2,
+                    "Details": [
+                        "créer de nouvelles recettes",
+                        "préparer des gâteaux"
+                    ]
+                },
+                "Famille": {
+                    "Total": 2,
+                    "Details": [
+                        "famille",
+                        "mère"
+                    ]
+                }
+            },
+            "Adjectifs": {
+                "Total": 2,
+                "Details": [
+                    "petite",
+                    "nouvelles"
+                ]
+            },
+            "Adverbes": {
+                "Total": 0,
+                "Details": {}
+            },
+            "Prépositions": {
+                "Total": 4,
+                "Details": {
+                    "de": 2,
+                    "dans": 1,
+                    "pour": 1
+                }
+            },
+            "Conjonctions de coordination": {
+                "Total": 1,
+                "Details": {
+                    "et": 1
+                }
+            },
+            "Déterminants": {
+                "Total": 9,
+                "Par type": {
+                    "Définis": {
+                        "Total": 4,
+                        "Details": {
+                            "La": 1,
+                            "Les": 1,
+                            "Le": 2
+                        }
+                    },
+                    "Possessifs": {
+                        "Total": 3,
+                        "Details": {
+                            "Ma": 1,
+                            "Ses": 2
+                        }
+                    },
+                    "Indéfinis": {
+                        "Total": 2,
+                        "Details": {
+                            "Une": 2
+                        }
+                    }
+                }
+            },
+            "Compléments": {
+                "Total": 7,
+                "Par type": {
+                    "COD": {
+                        "Total": 3,
+                        "Details": [
+                            "de nouvelles recettes",
+                            "des gâteaux",
+                            "nos voisins"
+                        ]
+                    },
+                    "Circonstanciels Temps": {
+                        "Total": 2,
+                        "Details": [
+                            "Il y a 3 ans",
+                            "ses week-ends"
+                        ]
+                    },
+                    "Circonstanciels Lieu": {
+                        "Total": 2,
+                        "Details": [
+                            "de Belgique",
+                            "dans une petite ville en Bretagne"
+                        ]
+                    }
+                }
+            },
+            "Types de discours": {
+                "Total": 2,
+                "Details": [
+                    "Narratif",
+                    "Informatif"
+                ]
+            },
+            "Registres linguistiques": {
+                "Total": 1,
+                "Details": [
+                    "Courant"
+                ]
+            },
+            "Type de phrases": {
+                "Total": 3,
+                "Par forme": {
+                    "Phrases positives": {
+                        "Total": 3
+                    },
+                    "Phrases negatives": {
+                        "Total": 0
+                    },
+                    "Phrases interrogative": {
+                        "Total": 0
+                    }
+                },
+                "Par structure": {
+                    "Phrases nominales": {
+                        "Total": 0
+                    },
+                    "Phrases verbales": {
+                        "Total": 3
+                    }
+                },
+                "Par complexité": {
+                    "Phrases simples": {
+                        "Total": 1
+                    },
+                    "Phrases complexes": {
+                        "Total": 2,
+                        "Details": {
+                            "Coordination": 1,
+                            "Juxtaposition": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

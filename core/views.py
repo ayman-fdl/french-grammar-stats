@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
 from groq import Groq
+import os
 import json
 
 # Use settings to get API key
@@ -24,6 +25,15 @@ def get_groq_response(user_input):
     except Exception as e:
         # Catch any error and return it along with a None response
         return None, str(e)
+
+def result_json_view(request):
+    result_json_path = os.path.join(settings.BASE_DIR, 'core', 'static', 'others', 'result.json')
+    if os.path.exists(result_json_path):
+        with open(result_json_path, 'r', encoding='utf-8') as f:
+            result_data = json.load(f)
+        return JsonResponse(result_data)
+    else:
+        return JsonResponse({'error': 'File not found'}, status=404)
 
 # View for rendering the index page
 def index(request):

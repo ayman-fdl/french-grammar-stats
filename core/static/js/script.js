@@ -69,3 +69,20 @@ function checkEnter(event) {
         event.preventDefault(); // Prevent default action (e.g., form submission)
     }
 }
+
+document.getElementById("exportPdfButton").addEventListener("click", function () {
+    const dashboard = document.body;
+
+    html2canvas(dashboard, {scale: 2, useCORS: true}).then(canvas => {
+        const imgData = canvas.toDataURL("image/png");
+
+        const imgWidth = canvas.width;
+        const imgHeight = canvas.height;
+
+        const pdf = new jspdf.jsPDF('p', 'px', [imgWidth, imgHeight]);
+
+        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+
+        pdf.save("dashboard.pdf");
+    });
+});
